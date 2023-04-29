@@ -5,7 +5,7 @@
 ## Stack
 
 - [Next.js](https://github.com/vercel/next.js)
-- [Tailwind](https://github.com/microsoft/TypeScript)
+- [Tailwind](https://github.com/tailwindlabs/tailwindcss)
 - [WAGMI](https://github.com/wagmi-dev/wagmi)
 - [Ethers.js](https://github.com/ethers-io/ethers.js/)
 - [RainbowKit](https://github.com/rainbow-me/rainbowkit)
