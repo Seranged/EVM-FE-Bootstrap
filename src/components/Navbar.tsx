@@ -12,18 +12,10 @@ const Navbar: FC = () => {
             openAccountModal,
             openChainModal,
             openConnectModal,
-            authenticationStatus,
             mounted,
           }) => {
-            // Note: If your app doesn't use authentication, you
-            // can remove all 'authenticationStatus' checks
-            const ready = mounted && authenticationStatus !== "loading";
-            const connected =
-              ready &&
-              account &&
-              chain &&
-              (!authenticationStatus ||
-                authenticationStatus === "authenticated");
+            const ready = mounted;
+            const connected = ready && account && chain;
             return (
               <div
                 {...(!ready && {
@@ -38,14 +30,22 @@ const Navbar: FC = () => {
                 {(() => {
                   if (!connected) {
                     return (
-                      <button onClick={openConnectModal} type="button">
+                      <button
+                        className="bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30"
+                        onClick={openConnectModal}
+                        type="button"
+                      >
                         Connect Wallet
                       </button>
                     );
                   }
                   if (chain.unsupported) {
                     return (
-                      <button onClick={openChainModal} type="button">
+                      <button
+                        className="bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-red-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30"
+                        onClick={openChainModal}
+                        type="button"
+                      >
                         Wrong network
                       </button>
                     );
@@ -57,7 +57,7 @@ const Navbar: FC = () => {
                         style={{ display: "flex", alignItems: "center" }}
                         type="button"
                       >
-                        <div className="space-x-2 flex">
+                        <div className="space-x-2 flex bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30">
                           {chain.iconUrl && (
                             <img
                               alt={chain.name ?? "Chain icon"}
@@ -68,7 +68,11 @@ const Navbar: FC = () => {
                           <div>{chain.name}</div>
                         </div>
                       </button>
-                      <button onClick={openAccountModal} type="button">
+                      <button
+                        className="bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2   lg:dark:bg-zinc-800/30"
+                        onClick={openAccountModal}
+                        type="button"
+                      >
                         {account.displayName}
                       </button>
                     </div>
