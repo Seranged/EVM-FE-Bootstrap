@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <NextHead>
         <title>EVM-Boilerplate</title>
-        <meta name="description" content="EBM-Boilerplate" />
+        <meta name="description" content="EVM-Boilerplate" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
       </NextHead>
