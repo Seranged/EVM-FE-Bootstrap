@@ -7,17 +7,12 @@ const Navbar: FC = () => {
       <div className={`fixed right-5 top-4 md:top-10  md:right-10 z-50`}>
         <ConnectButton.Custom>
           {({ account, chain, openAccountModal, openChainModal, openConnectModal, mounted }) => {
-            const ready = mounted
-            const connected = ready && account && chain
+            const connected = mounted && account && chain
             return (
               <div
-                {...(!ready && {
+                {...(!mounted && {
                   'aria-hidden': true,
-                  style: {
-                    opacity: 0,
-                    pointerEvents: 'none',
-                    userSelect: 'none',
-                  },
+                  className:'opacity-0 cursor-default select-none'
                 })}
               >
                 {(() => {
@@ -44,14 +39,14 @@ const Navbar: FC = () => {
                     )
                   }
                   return (
-                    <div style={{ display: 'flex', gap: 25 }}>
-                      <button onClick={openChainModal} style={{ display: 'flex', alignItems: 'center' }} type="button">
+                    <div className='flex space-x-5'>
+                      <button onClick={openChainModal} className='flex justify-center' type="button">
                         <div className="space-x-2 flex bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30">
                           {chain.iconUrl && (
                             <img
                               alt={chain.name ?? 'Chain icon'}
                               src={chain.iconUrl}
-                              style={{ width: 25, height: 25 }}
+                              className='w-6 h-6'
                             />
                           )}
                           <div>{chain.name}</div>
