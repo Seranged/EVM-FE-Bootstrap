@@ -4,7 +4,7 @@ import { ConnectButton } from '@rainbow-me/rainbowkit'
 const Navbar: FC = () => {
   return (
     <>
-      <div className={`fixed right-5 top-4 md:top-10  md:right-10 z-50`}>
+      <div className="fixed right-5 top-4 z-50 md:right-10 md:top-10">
         <ConnectButton.Custom>
           {({ account, chain, openAccountModal, openChainModal, openConnectModal, mounted }) => {
             const connected = mounted && account && chain
@@ -12,14 +12,14 @@ const Navbar: FC = () => {
               <div
                 {...(!mounted && {
                   'aria-hidden': true,
-                  className:'opacity-0 cursor-default select-none'
+                  className: 'opacity-0 cursor-default select-none',
                 })}
               >
                 {(() => {
                   if (!connected) {
                     return (
                       <button
-                        className="bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30"
+                        className="rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2"
                         onClick={openConnectModal}
                         type="button"
                       >
@@ -30,7 +30,7 @@ const Navbar: FC = () => {
                   if (chain.unsupported) {
                     return (
                       <button
-                        className="bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-red-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30"
+                        className="rounded-xl border border-red-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2"
                         onClick={openChainModal}
                         type="button"
                       >
@@ -39,21 +39,17 @@ const Navbar: FC = () => {
                     )
                   }
                   return (
-                    <div className='flex space-x-5'>
-                      <button onClick={openChainModal} className='flex justify-center' type="button">
-                        <div className="space-x-2 flex bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2  lg:dark:bg-zinc-800/30">
+                    <div className="flex space-x-5">
+                      <button onClick={openChainModal} className="flex justify-center" type="button">
+                        <div className="flex space-x-2 rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2">
                           {chain.iconUrl && (
-                            <img
-                              alt={chain.name ?? 'Chain icon'}
-                              src={chain.iconUrl}
-                              className='w-6 h-6'
-                            />
+                            <img alt={chain.name ?? 'Chain icon'} src={chain.iconUrl} className="h-6 w-6" />
                           )}
                           <div>{chain.name}</div>
                         </div>
                       </button>
                       <button
-                        className="bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-slate-500 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:px-3 lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2   lg:dark:bg-zinc-800/30"
+                        className="rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 px-3 py-2"
                         onClick={openAccountModal}
                         type="button"
                       >
@@ -67,8 +63,8 @@ const Navbar: FC = () => {
           }}
         </ConnectButton.Custom>
       </div>
-      <div className={`fixed top-10 right-80 z-10`}>
-        <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px]  before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-10 after:h-[180px] after:w-[740px] after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]"></div>
+      <div className="fixed right-80 top-10 z-10">
+        <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[680px]  before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-10 after:h-[190px] after:w-[840px] after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]"></div>
       </div>
     </>
   )
