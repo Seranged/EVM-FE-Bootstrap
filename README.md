@@ -30,3 +30,17 @@
 - [RainbowKit](https://github.com/rainbow-me/rainbowkit) - RainbowKit is an all-in-one multi-wallet library for React that is currently the best that is publicly available. The built-in modules handle wallet connection, disconnection, different types of wallets, display balances, support for multiple chains as well as chain-switching, etc. On top of this, Rainbowkit is extremely customizable stylistically, so developers can rebrand the modals/buttons how they wish. An example of this is provided in this repo, inside Navbar.tsx, where the 'Connect Wallet', 'Wrong Network', 'Chain Switcher', and 'Account' buttons have been restyled with tailwind syntax. 
 
 - [Typechain](https://github.com/ethereum-ts/TypeChain)  - Typechain is Typescript for EVM contracts. Provide the ABI for your contract, run the autotype generator, and utilize the generated types for a better developer experience. 
+
+## Legacy-Stack Explanation
+
+- [Next.js](https://github.com/vercel/next.js) -Next.js is a React framework for building fast, production-ready web applications with features like server-side rendering, automatic code splitting, optimized image loading, and better error handling. It also supports static site generation and abstraction of page routes, making it a popular choice for scalable and performant applications. Additionally, Next.js offers a fast hot reload for efficient development.
+
+- [Tailwind](https://github.com/tailwindlabs/tailwindcss) - A friend called it 'CSS for Zoomers' which is a pretty apt description. Tailwind is a CSS framework that provides pre-defined utility classes to style web applications consistently and responsively. The inline styling framework helps developers stay in the same .tsx file (and line as the html they are targeting) as the logic/component without having to move to a different file to style it.
+
+ ### Tailwind Libaries
+ 
+ - I purposefully have not included tailwind component libraries in this repo to keep bloat low. A few that I would recommend would be:
+
+1. [Shadcn](https://ui.shadcn.com/) - Free
+2. [Flowbite](https://flowbite.com/docs/getting-started/introduction/) - Freeminum
+3. [Daisyui](https://daisyui.com/) - Free
