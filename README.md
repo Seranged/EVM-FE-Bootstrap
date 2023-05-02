@@ -33,9 +33,9 @@
 
 ## Legacy-Stack Explanation
 
-- [Next.js](https://github.com/vercel/next.js) -Next.js is a React framework for building fast, production-ready web applications with features like server-side rendering, automatic code splitting, optimized image loading, and better error handling. It also supports static site generation and abstraction of page routes, making it a popular choice for scalable and performant applications. Additionally, Next.js offers a fast hot reload for efficient development.
+- [Next.js](https://github.com/vercel/next.js) - Next.js is a React framework for building fast, production-ready web applications with features such as server-side rendering, automatic code splitting, optimized image loading, and improved error handling. The framework also abstracts page routes, which can simplify and accelerate the development process. Additionally, Next.js has a fast hot reload feature that enables developers to see changes in real-time as they make modifications to their code, which is faster than many other solutions.
 
-- [Tailwind](https://github.com/tailwindlabs/tailwindcss) - A friend called it 'CSS for Zoomers' which is a pretty apt description. Tailwind is a CSS framework that provides pre-defined utility classes to style web applications consistently and responsively. The inline styling framework helps developers stay in the same .tsx file (and line as the html they are targeting) as the logic/component without having to move to a different file to style it.
+- [Tailwind](https://github.com/tailwindlabs/tailwindcss) - A friend called it 'CSS for Zoomers', which is a pretty apt description. Tailwind is a CSS framework that provides pre-defined utility classes to style web applications consistently and responsively. The inline styling framework helps developers stay in the same .tsx file (and line as the HTML they are targeting) as the logic/component without having to move to a different file to style it. Additionally, the abbreviated syntax of Tailwind can increase developer efficiency once they have learned the syntax.
 
 ### Tailwind Libaries
 
