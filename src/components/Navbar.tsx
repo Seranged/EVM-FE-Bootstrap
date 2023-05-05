@@ -1,4 +1,6 @@
+'use client'
 import { FC } from 'react'
+import Image from 'next/image'
 import { ConnectButton } from '@rainbow-me/rainbowkit'
 
 const Navbar: FC = () => {
@@ -43,7 +45,13 @@ const Navbar: FC = () => {
                       <button onClick={openChainModal} className="flex justify-center" type="button">
                         <div className="flex space-x-2 rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2">
                           {chain.iconUrl && (
-                            <img alt={chain.name ?? 'Chain icon'} src={chain.iconUrl} className="h-6 w-6" />
+                            <Image
+                              alt={chain.name ?? 'Chain icon'}
+                              src={chain.iconUrl}
+                              width={20}
+                              height={20}
+                              style={{ objectFit: 'contain' }}
+                            />
                           )}
                           <div>{chain.name}</div>
                         </div>
