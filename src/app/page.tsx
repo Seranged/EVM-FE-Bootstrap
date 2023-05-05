@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 
 // Landing page localhost:3000/
@@ -6,7 +5,6 @@ import Link from 'next/link'
 export default function LandingPage() {
   return (
     <>
-      <Navbar />
       <main className="flex min-h-screen flex-col items-center justify-center">
         <p className="rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4">
           EVM-FE-Bootstrap Repository

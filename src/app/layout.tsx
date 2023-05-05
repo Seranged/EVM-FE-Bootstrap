@@ -8,6 +8,7 @@ import { arbitrum, mainnet } from 'wagmi/chains'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { publicProvider } from 'wagmi/providers/public'
 import { getDefaultWallets, RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit'
+import Navbar from '@/components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body className={`${inter.className}`}>
           <WagmiConfig client={client}>
             <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme()}>
+            <Navbar />
               {children}
             </RainbowKitProvider>
           </WagmiConfig>
