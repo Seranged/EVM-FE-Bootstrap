@@ -13,14 +13,14 @@
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.12.12",
     "@typechain/ethers-v5": "^10.2.0",
-    "@types/node": "18.16.3",
-    "@types/react": "18.2.5",
-    "@types/react-dom": "18.2.3",
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.4.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
     "ethers": "^5.7.2",
-    "next": "13.4.0",
+    "next": "13.3.0",
     "postcss": "8.4.23",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
@@ -29,6 +29,6 @@
     "tailwindcss": "3.3.2",
     "typechain": "^8.1.1",
     "typescript": "5.0.4",
-    "wagmi": "^0.12.12"
+    "wagmi": "^0.12.13"
   }
 }

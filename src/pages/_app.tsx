@@ -7,6 +7,7 @@ import { arbitrum, mainnet } from 'wagmi/chains'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { publicProvider } from 'wagmi/providers/public'
 import { getDefaultWallets, RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,12 +30,20 @@ const client = createClient({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${inter.className}`}>
-      <WagmiConfig client={client}>
-        <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme()}>
-          <Component {...pageProps} />
-        </RainbowKitProvider>
-      </WagmiConfig>
-    </main>
+    <>
+      <Head>
+        <title>EVM-FE-Boilerplate</title>
+        <meta name="description" content="EVM-FE-Boilerplate" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+      </Head>
+      <main className={`${inter.className}`}>
+        <WagmiConfig client={client}>
+          <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme()}>
+            <Component {...pageProps} />
+          </RainbowKitProvider>
+        </WagmiConfig>
+      </main>
+    </>
   )
 }
