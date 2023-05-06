@@ -18,6 +18,8 @@
 
 - [Next.js v13.4^](https://nextjs.org/blog/next-13-4) - Next.js has recently fully released their production-stable version of a new directory architecture, and this repository has been updated to reflect it. The wider front-end industry has been increasingly adopting server-side rendering (SSR) over the years, while client-side rendering has become less popular. Unfortunately, crypto front-end developers will need to adjust to these changes while still enjoying the benefits of the legacy industry. The new `app/` directory structure offers many advantages, but it assumes server-side as a priority. Therefore, crypto developers who want to prioritize client-side logic (such as useState and useEffect) will need to declare 'use client' on almost every `.tsx` file. Fortunately, the [App Directory Docs](https://nextjs.org/docs/app/building-your-application/routing) already have great documentation for the new architecture and how to implement it.
 
+- [Page Directory Branch](https://github.com/Seranged/EVM-FE-Bootstrap/tree/pages-dir) - If you do not wish to stay up to date with NextJS. This is the older version this with repo with Nextjs' Page Directory infra `v13.3.0` - Not recommeneded you use this though as they will be decommissioning support.
+
 ## Getting Started
 
 1. Run `yarn install` to install dependencies.
