@@ -1,8 +1,15 @@
-# EVM-FE-Bootstrap Repo
+# EVM-FE-Bootstrap Repo [![twitter URL](https://img.shields.io/twitter/url/https/twitter.com/seranged.svg?style=social&label=Follow%20%40seranged)](https://twitter.com/seranged)
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/seranged.svg?style=social&label=Follow%20%40seranged)](https://twitter.com/seranged)
+![lastCommit](https://img.shields.io/github/last-commit/seranged/evm-fe-bootstrap?style=for-the-badge)
+![deps](https://img.shields.io/librariesio/github/seranged/evm-fe-bootstrap?style=for-the-badge)
+![lines](https://img.shields.io/tokei/lines/github/seranged/evm-fe-bootstrap?style=for-the-badge)
+![license](https://img.shields.io/github/license/seranged/evm-fe-bootstrap?style=for-the-badge)
 
-- [Demo Page](https://www.seranged.com/)
+[![demo](https://img.shields.io/badge/Demo_Page-Click-success?style=for-the-badge)](https://www.seranged.com/)
+
+![stars](https://img.shields.io/github/stars/seranged/evm-fe-bootstrap?style=social)
+![forks](https://img.shields.io/github/forks/seranged/evm-fe-bootstrap?style=social)
+
 
 ## Stack
 
@@ -16,18 +23,21 @@
 - [ESLint](https://github.com/eslint/eslint)
 - [Prettier](https://github.com/prettier/prettier)
 
-### NextJS v13.4^ Help!
-
-- [Next.js v13.4^](https://nextjs.org/blog/next-13-4) - Next.js has recently fully released their production-stable version of a new directory architecture, and this repository has been updated to reflect it. The wider front-end industry has been increasingly adopting server-side rendering (SSR) over the years, while client-side rendering has become less popular. Unfortunately, crypto front-end developers will need to adjust to these changes while still enjoying the benefits of the legacy industry. The new `app/` directory structure offers many advantages, but it assumes server-side as a priority. Therefore, crypto developers who want to prioritize client-side logic (such as useState and useEffect) will need to declare 'use client' on almost every `.tsx` file. Fortunately, the [App Directory Docs](https://nextjs.org/docs/app/building-your-application/routing) already have great documentation for the new architecture and how to implement it.
-
-- [Page Directory Branch](https://github.com/Seranged/EVM-FE-Bootstrap/tree/pages-dir) - If you do not wish to stay up to date with NextJS, this is the older version of the repository that uses NextJS's Page Directory infrastructure `v13.3.0`. However, it is not recommended to use this version as support for it will be decommissioned
-
 ## Getting Started
 
 1. Run `yarn install` to install dependencies.
 2. Create `.env.local` file in root and add ALCHEMY_API_KEY
-3. Add your contract abi.json into `/src/contracts`and run `yarn typechain`
+3. Add your contract abi.json into `/src/contracts` and run `yarn typechain`
 4. Run `yarn dev` to begin developing.
+
+5. `Optional`: This repository has an integration with Dependabot (in the .github folder). This means that if you set up the bot on Github, it will check dependencies every week and ask for a pull request to merge into the codebase. Furthermore, I have added in [combine-prs-workflow](https://github.com/hrvey/combine-prs-workflow), which will merge all of the Dependabot PR requests from each dependency update into one PR for you to merge. Click [here](https://github.com/hrvey/combine-prs-workflow) to set up that PR merging, and click [here](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates) to set up Dependabot
+
+
+## NextJS v13.4^ Help!
+
+- [Next.js v13.4^](https://nextjs.org/blog/next-13-4) - Next.js has recently fully released their production-stable version of a new directory architecture, and this repository has been updated to reflect it. The wider front-end industry has been increasingly adopting server-side rendering (SSR) over the years, while client-side rendering has become less popular. Unfortunately, crypto front-end developers will need to adjust to these changes while still enjoying the benefits of the legacy industry. The new `app/` directory structure offers many advantages, but it assumes server-side as a priority. Therefore, crypto developers who want to prioritize client-side logic (such as useState and useEffect) will need to declare 'use client' on almost every `.tsx` file. Fortunately, the [App Directory Docs](https://nextjs.org/docs/app/building-your-application/routing) already have great documentation for the new architecture and how to implement it.
+
+- [Page Directory Branch](https://github.com/Seranged/EVM-FE-Bootstrap/tree/pages-dir) - If you do not wish to stay up to date with NextJS, this is the older version of the repository that uses NextJS's Page Directory infrastructure `v13.3.0`. However, it is not recommended to use this version as support for it will be decommissioned
 
 ## EVM-Stack Explanation
 
