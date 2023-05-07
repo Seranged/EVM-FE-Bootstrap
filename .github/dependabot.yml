@@ -1,9 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "yarn"
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
       interval: "weekly"
-   ignore:
+  - package-ecosystem: "yarn"
+    directory: "/"
+    schedule:
+      interval: "daily"
+         ignore:
       - dependency-name: "ethers*" 
       versions: ["6.x"]

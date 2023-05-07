@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body className={`${inter.className}`}>
           <WagmiConfig client={client}>
             <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme()}>
-            <Navbar />
+              <Navbar />
               {children}
             </RainbowKitProvider>
           </WagmiConfig>
