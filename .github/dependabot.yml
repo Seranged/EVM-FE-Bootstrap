@@ -1,13 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "yarn"
-    directory: "/"
+      interval: 'weekly'
+  - package-ecosystem: 'yarn'
+    directory: '/'
     schedule:
-      interval: "daily"
-         ignore:
-      - dependency-name: "ethers*" 
-      versions: ["6.x"]
+      interval: 'daily'
+    ignore:
+      - dependency-name: 'ethers*'
+        versions: '6.x'
