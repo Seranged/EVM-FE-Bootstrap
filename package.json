@@ -1,7 +1,7 @@
 {
   "name": "evm-fe-bootstrap",
-	"author": "Seranged",
-	"license": "MIT",
+  "author": "Seranged",
+  "license": "MIT",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -14,11 +14,12 @@
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.12.12",
-    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/ethers-v5": "^10.2.1",
     "@types/node": "20.1.0",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
+    "encoding": "^0.1.13",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
     "ethers": "^5.7.2",
