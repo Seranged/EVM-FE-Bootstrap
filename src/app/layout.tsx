@@ -3,7 +3,8 @@ import '@/styles/globals.css'
 import '@rainbow-me/rainbowkit/styles.css'
 import React from 'react'
 import { Inter } from 'next/font/google'
-import { configureChains, createClient, WagmiConfig } from 'wagmi'
+import { configureChains, createConfig, WagmiConfig } from 'wagmi'
+import { createPublicClient, http } from 'viem'
 import { arbitrum, mainnet } from 'wagmi/chains'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { publicProvider } from 'wagmi/providers/public'
@@ -12,8 +13,8 @@ import Navbar from '@/components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// WAGMI Chains
-const { chains, provider } = configureChains(
+// // WAGMI Chains
+const { chains } = configureChains(
   [mainnet, arbitrum],
   [alchemyProvider({ apiKey: process.env.ALCHEMY_API_KEY }), publicProvider()]
 )
@@ -23,10 +24,13 @@ const { connectors } = getDefaultWallets({
   chains,
 })
 
-const client = createClient({
+const config = createConfig({
   autoConnect: true,
   connectors,
-  provider,
+  publicClient: createPublicClient({
+    chain: mainnet,
+    transport: http(),
+  }),
 })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -40,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <html lang="en">
         <body className={`${inter.className}`}>
-          <WagmiConfig client={client}>
+          <WagmiConfig config={config}>
             <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme()}>
               <Navbar />
               {children}

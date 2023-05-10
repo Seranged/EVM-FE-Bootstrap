@@ -2,27 +2,25 @@
   "name": "evm-fe-bootstrap",
   "author": "Seranged",
   "license": "MIT",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write . --ignore-path .gitignore",
-    "typechain": "typechain --target ethers-v5 --out-dir ./src/contracts/types './src/contracts/*.json'"
+    "format": "prettier --write . --ignore-path .gitignore"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^0.12.13",
-    "@typechain/ethers-v5": "^10.2.1",
-    "@types/node": "20.1.1",
+    "@rainbow-me/rainbowkit": "^1",
+    "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
+    "abitype": "^0.8.2",
     "autoprefixer": "10.4.14",
     "encoding": "^0.1.13",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
-    "ethers": "^5.7.2",
     "next": "13.4.1",
     "postcss": "8.4.23",
     "prettier": "^2.8.8",
@@ -30,8 +28,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
-    "typechain": "^8.1.1",
     "typescript": "5.0.4",
-    "wagmi": "^0.12.13"
+    "viem": "^0.3.19",
+    "wagmi": "^1"
   }
 }
