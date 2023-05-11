@@ -16,7 +16,7 @@
     "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
-    "abitype": "^0.8.2",
+    "abitype": "^0.8.3",
     "autoprefixer": "10.4.14",
     "encoding": "^0.1.13",
     "eslint": "8.40.0",
