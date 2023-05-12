@@ -28,7 +28,7 @@
 2. Create `.env.local` file in root and add ALCHEMY_API_KEY
 3. Run `yarn dev` to begin developing.
 
-5. `Optional`: This repository has an integration with Dependabot (in the .github folder). This means that if you set up the bot on Github, it will check dependencies every week and ask for a pull request to merge into the codebase. Furthermore, I have added in [combine-prs-workflow](https://github.com/hrvey/combine-prs-workflow), which will merge all of the Dependabot PR requests from each dependency update into one PR for you to merge. Click [here](https://github.com/hrvey/combine-prs-workflow) to set up that PR merging, and click [here](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates) to set up Dependabot
+4. `Optional`: This repository has an integration with Dependabot (in the .github folder). This means that if you set up the bot on Github, it will check dependencies every week and ask for a pull request to merge into the codebase. Furthermore, I have added in [combine-prs-workflow](https://github.com/hrvey/combine-prs-workflow), which will merge all of the Dependabot PR requests from each dependency update into one PR for you to merge. Click [here](https://github.com/hrvey/combine-prs-workflow) to set up that PR merging, and click [here](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates) to set up Dependabot
 
 ## NextJS v13.4^ Help!
 
@@ -36,7 +36,7 @@
 
 - [Page Directory Branch](https://github.com/Seranged/EVM-FE-Bootstrap/tree/pages-dir) - If you do not wish to stay up to date with NextJS, this is the older version of the repository that uses NextJS's Page Directory infrastructure `v13.3.0`. However, it is not recommended to use this version as support for it will be decommissioned
 
-- [Pre-Viem Branch](https://github.com/Seranged/EVM-FE-Bootstrap/tree/app/dir-ethers.js-old-wagmi-(no-viem)) - If you do not wish to stay up to date with the WAGMI teams work, this is the older version of the repository that uses NextJS's App/ Directory `v13.4^`. However, it is not recommended to use this version as support for WAGMI + Ethers has and will continue to be decommissioned
+- [Pre-Viem Branch](<https://github.com/Seranged/EVM-FE-Bootstrap/tree/app/dir-ethers.js-old-wagmi-(no-viem)>) - If you do not wish to stay up to date with the WAGMI teams work, this is the older version of the repository that uses NextJS's App/ Directory `v13.4^`. However, it is not recommended to use this version as support for WAGMI + Ethers has and will continue to be decommissioned
 
 ## EVM-Stack Explanation
 
