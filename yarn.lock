@@ -1535,10 +1535,15 @@ abitype@0.8.1:
   resolved "https://registry.yarnpkg.com/abitype/-/abitype-0.8.1.tgz#9575a21da88bb4094a262a653e526a088ab06041"
   integrity sha512-n8Di6AWb3i7HnEkBvecU6pG0a5nj5YwMvdAIwPLsQK95ulRy/XS113s/RXvSfTX1iOQJYFrEO3/q4SMWu7OwTA==
 
-abitype@0.8.2, abitype@^0.8.2:
+abitype@0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/abitype/-/abitype-0.8.2.tgz#cacd330d07488a4020d84f54fc361361234b9c83"
   integrity sha512-B1ViNMGpfx/qjVQi0RTc2HEFHuR9uoCoTEkwELT5Y7pBPtBbctYijz9BK6+Kd0hQ3S70FhYTO2dWWk0QNUEXMA==
+
+abitype@^0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/abitype/-/abitype-0.8.3.tgz#9e7bad909ba59fd72ff1b8c51b912c62834fe28b"
+  integrity sha512-ma+fOVhoLOq68Ht8ysPS+sEIModycx6oqxP9r1Cx79rzcEO7m0beo8o9dxIlZFLn8qv+PczL/Zs4whI5KmhVJg==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
