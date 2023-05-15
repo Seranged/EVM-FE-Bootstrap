@@ -1158,10 +1158,10 @@
     abitype "0.8.1"
     eventemitter3 "^4.0.7"
 
-"@wagmi/core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-1.0.2.tgz#e29f9b7e63d3508cff84d1898cccc470725c7a35"
-  integrity sha512-3MCmaah7zdpt/eA6AlxNsL/2BV+6jhi4CMO20vHsSGPyxCPrvDguY9fn6tUMMmhwnFXhSAEHDhXNlZBPVl1tog==
+"@wagmi/core@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-1.0.4.tgz#5b0b746b68bdd8a49906159bac211ac4a8cce51c"
+  integrity sha512-CviDdioSWubghMnmEodB9R/ZE2OhuHVbr3Q1XTJjHIIrhhrPJSCjESr5pLx7X3lVdpf2FofapfWRCaxdYqg9sQ==
   dependencies:
     "@wagmi/chains" "0.2.22"
     "@wagmi/connectors" "1.0.2"
@@ -4881,14 +4881,14 @@ viem@^0.3.22:
     ws "8.12.0"
 
 wagmi@^1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-1.0.2.tgz#1c1ca96a03ecf7aa6f37236f6ea2ef1cc26cdef7"
-  integrity sha512-RVmVKK561iRpHAO1pomTKQAbofDZPT8ZBfXo75riJpoTW8ElggfDrcennDqejeMZeVJGZMK/Bt+W4eTxufmS6A==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-1.0.4.tgz#4058b62ed35d4bacb3909a8501d75a4ef3af2261"
+  integrity sha512-Vk3AQbxEHNTo7hE/AWQlRIDtXJ5eUwWxhvbveYRJTIdDUxGymmQQBviYKVr4jA0uKeI6A7M1cYl4OGjs5R43wQ==
   dependencies:
     "@tanstack/query-sync-storage-persister" "^4.27.1"
     "@tanstack/react-query" "^4.28.0"
     "@tanstack/react-query-persist-client" "^4.28.0"
-    "@wagmi/core" "1.0.2"
+    "@wagmi/core" "1.0.4"
     abitype "0.8.1"
     use-sync-external-store "^1.2.0"
 
