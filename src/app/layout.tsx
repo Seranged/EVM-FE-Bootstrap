@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ['latin'] })
 // // WAGMI Chains
 const { chains } = configureChains(
   [mainnet, arbitrum],
-  [alchemyProvider({ apiKey: process.env.ALCHEMY_API_KEY }), publicProvider()]
+  [alchemyProvider({ apiKey: process.env.ALCHEMY_API_KEY }), publicProvider()],
 )
 
 const { connectors } = getDefaultWallets({
@@ -38,14 +38,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <>
       <head>
         <title>EVM-FE-Boilerplate</title>
-        <meta name="description" content="EVM-FE-Boilerplate" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+        <meta name='description' content='EVM-FE-Boilerplate' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='icon' type='image/png' sizes='64x64' href='/favicon.png' />
       </head>
-      <html lang="en">
+      <html lang='en'>
         <body className={`${inter.className}`}>
           <WagmiConfig config={config}>
-            <RainbowKitProvider chains={chains} modalSize="compact" theme={darkTheme()}>
+            <RainbowKitProvider chains={chains} modalSize='compact' theme={darkTheme()}>
               <Navbar />
               {children}
             </RainbowKitProvider>

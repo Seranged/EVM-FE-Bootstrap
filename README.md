@@ -1,7 +1,6 @@
 # EVM-FE-Bootstrap Repo [![twitter URL](https://img.shields.io/twitter/url/https/twitter.com/seranged.svg?style=social&label=Follow%20%40seranged)](https://twitter.com/seranged)
 
 ![lastCommit](https://img.shields.io/github/last-commit/seranged/evm-fe-bootstrap?style=for-the-badge)
-![deps](https://img.shields.io/librariesio/github/seranged/evm-fe-bootstrap?style=for-the-badge)
 ![lines](https://img.shields.io/tokei/lines/github/seranged/evm-fe-bootstrap?style=for-the-badge)
 ![license](https://img.shields.io/github/license/seranged/evm-fe-bootstrap?style=for-the-badge)
 
@@ -19,8 +18,7 @@
 - [RainbowKit](https://github.com/rainbow-me/rainbowkit)
 - [Typescript](https://github.com/microsoft/TypeScript)
 - [Abitype](https://github.com/wagmi-dev/abitype)
-- [ESLint](https://github.com/eslint/eslint)
-- [Prettier](https://github.com/prettier/prettier)
+- [Rome](https://github.com/rome/tools) (EsLint + Prettier on Steroids)
 
 ## Getting Started
 

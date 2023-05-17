@@ -2,8 +2,8 @@
 
 export default function NotFound() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <p className="rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4">
+    <main className='flex min-h-screen flex-col items-center justify-center'>
+      <p className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4'>
         404 - Page Not Found
       </p>
     </main>
