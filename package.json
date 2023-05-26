@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^1",
-    "@types/node": "20.2.1",
+    "@types/node": "20.2.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "abitype": "^0.8.4",
