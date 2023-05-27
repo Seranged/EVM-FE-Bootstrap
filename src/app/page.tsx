@@ -10,9 +10,7 @@ export default function LandingPage() {
           EVM-FE-Bootstrap Repository
         </p>
         <Link href='/examplePage'>
-          <div
-            className={`mt-3 rounded-xl border border-slate-500 bg-gradient-to-b p-3 hover:from-zinc-800/40 hover:to-zinc-500/50`}
-          >
+          <div className='mt-3 rounded-xl border border-slate-500 bg-gradient-to-b p-3 hover:from-zinc-800/40 hover:to-zinc-500/50'>
             Example Page
           </div>
         </Link>

@@ -13,20 +13,20 @@
     "format": "yarn rome format src --write"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^1",
-    "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
+    "@rainbow-me/rainbowkit": "^1.0.1",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
     "abitype": "^0.8.4",
     "autoprefixer": "10.4.14",
-    "next": "13.4.3",
+    "next": "13.4.4",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rome": "^12.1.2",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
-    "viem": "^0.3.31",
-    "wagmi": "^1.0.5"
+    "viem": "^0.3.37",
+    "wagmi": "^1.0.8"
   }
 }
