@@ -11,6 +11,11 @@ const Navbar: FC = () => {
           {({ account, chain, openAccountModal, openChainModal, openConnectModal, mounted }) => {
             const connected = mounted && account && chain
             return (
+              <>
+              {!mounted && (
+                <div className='rounded-xl border text-center border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2'
+                >Initalizing...</div>
+              )}
               <div
                 {...(!mounted && {
                   'aria-hidden': true,
@@ -67,6 +72,7 @@ const Navbar: FC = () => {
                   )
                 })()}
               </div>
+              </>
             )
           }}
         </ConnectButton.Custom>
