@@ -26,7 +26,7 @@ const Navbar: FC = () => {
                   if (!connected) {
                     return (
                       <button
-                        className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2'
+                        className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2 hover:bg-zinc-800/50'
                         onClick={openConnectModal}
                         type='button'
                       >
@@ -37,7 +37,7 @@ const Navbar: FC = () => {
                   if (chain.unsupported) {
                     return (
                       <button
-                        className='rounded-xl border border-red-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2'
+                        className='rounded-xl border border-red-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2 hover:bg-zinc-800/50'
                         onClick={openChainModal}
                         type='button'
                       >
@@ -48,7 +48,7 @@ const Navbar: FC = () => {
                   return (
                     <div className='flex space-x-5'>
                       <button onClick={openChainModal} className='flex justify-center' type='button'>
-                        <div className='flex space-x-2 rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2'>
+                        <div className='flex space-x-2 rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 p-2 hover:bg-zinc-800/50'>
                           {chain.iconUrl && (
                             <Image
                               alt={chain.name ?? 'Chain icon'}
@@ -62,7 +62,7 @@ const Navbar: FC = () => {
                         </div>
                       </button>
                       <button
-                        className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 px-3 py-2'
+                        className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/50 px-3 py-2 hover:bg-zinc-800/50'
                         onClick={openAccountModal}
                         type='button'
                       >
