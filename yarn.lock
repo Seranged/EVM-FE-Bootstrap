@@ -3371,10 +3371,10 @@ viem@^0.3.37:
     isomorphic-ws "5.0.0"
     ws "8.12.0"
 
-wagmi@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-1.0.8.tgz#c51b001c9f0949a10d26bac1defe7e2e1b7d1b89"
-  integrity sha512-xcDTt9vyy6R9kP7Yk4G+qGDDcqVmULXisAIFf2G6tekk1u9YWcUuqOYQAG8H7AS0Kz1hPYJech3ge1UGuoF3fg==
+wagmi@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-1.0.9.tgz#2483e448720d9ccd013ad0f2943ba7c4dfd775e6"
+  integrity sha512-LIExrD43Kyy8YIG02AQ4+heQc324h4lgTsQcpIDkLcOnwCV24uNSe/Ib1/F2k0N51uUsFoBdB5hjAaT6Ww7AtQ==
   dependencies:
     "@tanstack/query-sync-storage-persister" "^4.27.1"
     "@tanstack/react-query" "^4.28.0"
