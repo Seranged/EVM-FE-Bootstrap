@@ -1477,10 +1477,10 @@ abitype@0.8.7:
   resolved "https://registry.yarnpkg.com/abitype/-/abitype-0.8.7.tgz#e4b3f051febd08111f486c0cc6a98fa72d033622"
   integrity sha512-wQ7hV8Yg/yKmGyFpqrNZufCxbszDe5es4AZGYPBitocfSqXtjrTG9JMWFcc4N30ukl2ve48aBTwt7NJxVQdU3w==
 
-abitype@^0.8.10:
-  version "0.8.10"
-  resolved "https://registry.yarnpkg.com/abitype/-/abitype-0.8.10.tgz#25e0dc1de619dac4831193d3072b9324ca24865f"
-  integrity sha512-EeP4W7ELhcacFPgO8BH3hQAwiqflfRGWI19rdhm8aPfnwtbzlwYhXAx1l9Fl2wpIRGbk1yEKaYdea2iGq6Kjww==
+abitype@^0.8.11:
+  version "0.8.11"
+  resolved "https://registry.yarnpkg.com/abitype/-/abitype-0.8.11.tgz#66e1cf2cbf46f48d0e57132d7c1c392447536cc1"
+  integrity sha512-bM4v2dKvX08sZ9IU38IN5BKmN+ZkOSd2oI4a9f0ejHYZQYV6cDr7j+d95ga0z2XHG36Y4jzoG5Z7qDqxp7fi/A==
 
 aes-js@3.0.0:
   version "3.0.0"
