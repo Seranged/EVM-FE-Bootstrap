@@ -19,8 +19,11 @@ const { chains } = configureChains(
   [alchemyProvider({ apiKey: process.env.ALCHEMY_API_KEY }), publicProvider()],
 )
 
+const projectId = 'WalletConnectID(NeedsReplacing)';
+
 const { connectors } = getDefaultWallets({
   appName: 'EVM-FE-Boilerplate',
+  projectId,
   chains,
 })
 
