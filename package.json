@@ -13,7 +13,7 @@
     "format": "yarn rome format src --write"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^1.0.5",
+    "@rainbow-me/rainbowkit": "^1.0.7",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
