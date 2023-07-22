@@ -8,9 +8,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "yarn rome check src --apply",
-    "lintCheck": "yarn rome check src",
-    "format": "yarn rome format src --write"
+    "lint": "pnpm rome check src --apply",
+    "lintCheck": "pnpm rome check src",
+    "format": "pnpm rome format src --write",
+    "preinstall": "npx only-allow pnpm"   
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^1.0.7",
