@@ -14,7 +14,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^1.0.7",
+    "@rainbow-me/rainbowkit": "^1.0.8",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
