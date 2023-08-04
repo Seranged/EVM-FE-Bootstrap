@@ -14,9 +14,9 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^1.0.7",
-    "@types/node": "20.4.4",
-    "@types/react": "18.2.15",
+    "@rainbow-me/rainbowkit": "^1.0.8",
+    "@types/node": "20.4.7",
+    "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "abitype": "^0.9.6",
     "autoprefixer": "10.4.14",
@@ -28,7 +28,7 @@
     "rome": "^12.1.3",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6",
-    "viem": "^1.5.0",
+    "viem": "^1.5.3",
     "wagmi": "^1.3.9"
   }
 }
