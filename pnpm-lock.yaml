@@ -1,57 +1,58 @@
 lockfileVersion: '6.0'
 
-importers:
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
-  .:
-    dependencies:
-      '@rainbow-me/rainbowkit':
-        specifier: ^1.0.11
-        version: 1.0.11(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(viem@1.11.0)(wagmi@1.4.2)
-      '@types/node':
-        specifier: 20.5.8
-        version: 20.5.8
-      '@types/react':
-        specifier: 18.2.22
-        version: 18.2.22
-      '@types/react-dom':
-        specifier: 18.2.7
-        version: 18.2.7
-      abitype:
-        specifier: ^0.9.8
-        version: 0.9.8(typescript@5.1.6)
-      autoprefixer:
-        specifier: 10.4.15
-        version: 10.4.15(postcss@8.4.29)
-      encoding:
-        specifier: ^0.1.13
-        version: 0.1.13
-      next:
-        specifier: ^13.5.1
-        version: 13.5.1(react-dom@18.2.0)(react@18.2.0)
-      postcss:
-        specifier: 8.4.29
-        version: 8.4.29
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      rome:
-        specifier: ^12.1.3
-        version: 12.1.3
-      tailwindcss:
-        specifier: 3.3.3
-        version: 3.3.3
-      typescript:
-        specifier: 5.1.6
-        version: 5.1.6
-      viem:
-        specifier: ^1.11.0
-        version: 1.11.0(typescript@5.1.6)
-      wagmi:
-        specifier: ^1.4.2
-        version: 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0)
+dependencies:
+  '@rainbow-me/rainbowkit':
+    specifier: ^1.0.11
+    version: 1.0.11(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(viem@1.11.0)(wagmi@1.4.2)
+  '@types/node':
+    specifier: 20.5.8
+    version: 20.5.8
+  '@types/react':
+    specifier: 18.2.22
+    version: 18.2.22
+  '@types/react-dom':
+    specifier: 18.2.7
+    version: 18.2.7
+  abitype:
+    specifier: ^0.9.8
+    version: 0.9.8(typescript@5.2.2)
+  autoprefixer:
+    specifier: 10.4.15
+    version: 10.4.15(postcss@8.4.29)
+  encoding:
+    specifier: ^0.1.13
+    version: 0.1.13
+  next:
+    specifier: ^13.5.1
+    version: 13.5.1(react-dom@18.2.0)(react@18.2.0)
+  postcss:
+    specifier: 8.4.29
+    version: 8.4.29
+  react:
+    specifier: 18.2.0
+    version: 18.2.0
+  react-dom:
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
+  rome:
+    specifier: ^12.1.3
+    version: 12.1.3
+  tailwindcss:
+    specifier: 3.3.3
+    version: 3.3.3
+  typescript:
+    specifier: 5.2.2
+    version: 5.2.2
+  viem:
+    specifier: ^1.11.0
+    version: 1.11.0(typescript@5.2.2)
+  wagmi:
+    specifier: ^1.4.2
+    version: 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0)
 
 packages:
 
@@ -358,8 +359,8 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-remove-scroll: 2.5.4(@types/react@18.2.22)(react@18.2.0)
-      viem: 1.11.0(typescript@5.1.6)
-      wagmi: 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0)
+      viem: 1.11.0(typescript@5.2.2)
+      wagmi: 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -412,10 +413,10 @@ packages:
     dev: false
     optional: true
 
-  /@safe-global/safe-apps-provider@0.17.1(typescript@5.1.6):
+  /@safe-global/safe-apps-provider@0.17.1(typescript@5.2.2):
     resolution: {integrity: sha512-lYfRqrbbK1aKU1/UGkYWc/X7PgySYcumXKc5FB2uuwAs2Ghj8uETuW5BrwPqyjBknRxutFbTv+gth/JzjxAhdQ==}
     dependencies:
-      '@safe-global/safe-apps-sdk': 8.0.0(typescript@5.1.6)
+      '@safe-global/safe-apps-sdk': 8.0.0(typescript@5.2.2)
       events: 3.3.0
     transitivePeerDependencies:
       - bufferutil
@@ -424,11 +425,11 @@ packages:
       - zod
     dev: false
 
-  /@safe-global/safe-apps-sdk@8.0.0(typescript@5.1.6):
+  /@safe-global/safe-apps-sdk@8.0.0(typescript@5.2.2):
     resolution: {integrity: sha512-gYw0ki/EAuV1oSyMxpqandHjnthZjYYy+YWpTAzf8BqfXM3ItcZLpjxfg+3+mXW8HIO+3jw6T9iiqEXsqHaMMw==}
     dependencies:
       '@safe-global/safe-gateway-typescript-sdk': 3.12.0
-      viem: 1.11.0(typescript@5.1.6)
+      viem: 1.11.0(typescript@5.2.2)
     transitivePeerDependencies:
       - bufferutil
       - typescript
@@ -436,11 +437,11 @@ packages:
       - zod
     dev: false
 
-  /@safe-global/safe-apps-sdk@8.1.0(typescript@5.1.6):
+  /@safe-global/safe-apps-sdk@8.1.0(typescript@5.2.2):
     resolution: {integrity: sha512-XJbEPuaVc7b9n23MqlF6c+ToYIS3f7P2Sel8f3cSBQ9WORE4xrSuvhMpK9fDSFqJ7by/brc+rmJR/5HViRr0/w==}
     dependencies:
       '@safe-global/safe-gateway-typescript-sdk': 3.12.0
-      viem: 1.11.0(typescript@5.1.6)
+      viem: 1.11.0(typescript@5.2.2)
     transitivePeerDependencies:
       - bufferutil
       - typescript
@@ -764,7 +765,7 @@ packages:
       '@vanilla-extract/css': 1.9.1
     dev: false
 
-  /@wagmi/connectors@3.1.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0):
+  /@wagmi/connectors@3.1.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0):
     resolution: {integrity: sha512-IlLKErqCzQRBUcCvXGPowcczbWcvJtEG006gPsAoePNJEXCHEWoKASghgu+L/bqD7006Z6mW6zlTNjcSQJvFAg==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -775,16 +776,16 @@ packages:
     dependencies:
       '@coinbase/wallet-sdk': 3.7.2(encoding@0.1.13)
       '@ledgerhq/connect-kit-loader': 1.1.2
-      '@safe-global/safe-apps-provider': 0.17.1(typescript@5.1.6)
-      '@safe-global/safe-apps-sdk': 8.1.0(typescript@5.1.6)
+      '@safe-global/safe-apps-provider': 0.17.1(typescript@5.2.2)
+      '@safe-global/safe-apps-sdk': 8.1.0(typescript@5.2.2)
       '@walletconnect/ethereum-provider': 2.10.1(@walletconnect/modal@2.6.2)(encoding@0.1.13)
       '@walletconnect/legacy-provider': 2.0.0(encoding@0.1.13)
       '@walletconnect/modal': 2.6.2(@types/react@18.2.22)(react@18.2.0)
       '@walletconnect/utils': 2.10.1
-      abitype: 0.8.7(typescript@5.1.6)
+      abitype: 0.8.7(typescript@5.2.2)
       eventemitter3: 4.0.7
-      typescript: 5.1.6
-      viem: 1.11.0(typescript@5.1.6)
+      typescript: 5.2.2
+      viem: 1.11.0(typescript@5.2.2)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
       - '@types/react'
@@ -797,7 +798,7 @@ packages:
       - zod
     dev: false
 
-  /@wagmi/core@1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0):
+  /@wagmi/core@1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0):
     resolution: {integrity: sha512-szgNs2DCbBXKsq3wdm/YD8FWkg7lfmTRAv25b2nJYJUTQN59pVXznlWfq8VCJLamhKOYjeYHlTQxXkAeUAJdhw==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -806,11 +807,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@wagmi/connectors': 3.1.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0)
-      abitype: 0.8.7(typescript@5.1.6)
+      '@wagmi/connectors': 3.1.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0)
+      abitype: 0.8.7(typescript@5.2.2)
       eventemitter3: 4.0.7
-      typescript: 5.1.6
-      viem: 1.11.0(typescript@5.1.6)
+      typescript: 5.2.2
+      viem: 1.11.0(typescript@5.2.2)
       zustand: 4.4.1(@types/react@18.2.22)(react@18.2.0)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
@@ -1209,7 +1210,7 @@ packages:
       through: 2.3.8
     dev: false
 
-  /abitype@0.8.7(typescript@5.1.6):
+  /abitype@0.8.7(typescript@5.2.2):
     resolution: {integrity: sha512-wQ7hV8Yg/yKmGyFpqrNZufCxbszDe5es4AZGYPBitocfSqXtjrTG9JMWFcc4N30ukl2ve48aBTwt7NJxVQdU3w==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -1218,10 +1219,10 @@ packages:
       zod:
         optional: true
     dependencies:
-      typescript: 5.1.6
+      typescript: 5.2.2
     dev: false
 
-  /abitype@0.9.8(typescript@5.1.6):
+  /abitype@0.9.8(typescript@5.2.2):
     resolution: {integrity: sha512-puLifILdm+8sjyss4S+fsUN09obiT1g2YW6CtcQF+QDzxR0euzgEB29MZujC6zMk2a6SVmtttq1fc6+YFA7WYQ==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -1232,7 +1233,7 @@ packages:
       zod:
         optional: true
     dependencies:
-      typescript: 5.1.6
+      typescript: 5.2.2
     dev: false
 
   /aes-js@3.1.2:
@@ -2940,8 +2941,8 @@ packages:
       is-typedarray: 1.0.0
     dev: false
 
-  /typescript@5.1.6:
-    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
@@ -3047,7 +3048,7 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /viem@1.11.0(typescript@5.1.6):
+  /viem@1.11.0(typescript@5.2.2):
     resolution: {integrity: sha512-k53ewCObCHMc5zex/lXB4+HeRW1NIlezqkR/S4OXKV5MZvltMYqsgKABuWVgiMdfIL/NvDjtIgwbaA24AAn31g==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -3061,9 +3062,9 @@ packages:
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
       '@types/ws': 8.5.5
-      abitype: 0.9.8(typescript@5.1.6)
+      abitype: 0.9.8(typescript@5.2.2)
       isomorphic-ws: 5.0.0(ws@8.13.0)
-      typescript: 5.1.6
+      typescript: 5.2.2
       ws: 8.13.0
     transitivePeerDependencies:
       - bufferutil
@@ -3071,7 +3072,7 @@ packages:
       - zod
     dev: false
 
-  /wagmi@1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0):
+  /wagmi@1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0):
     resolution: {integrity: sha512-Cxu0LatB44stqHoqdc6dgsTb9woYH1bEquJFq9PbTkePmnRCvceAD4aFUREUTaBWzIBcouhFlanWweDzEnb3mg==}
     peerDependencies:
       react: '>=17.0.0'
@@ -3084,12 +3085,12 @@ packages:
       '@tanstack/query-sync-storage-persister': 4.35.3
       '@tanstack/react-query': 4.35.3(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query-persist-client': 4.35.5(@tanstack/react-query@4.35.3)
-      '@wagmi/core': 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0)
-      abitype: 0.8.7(typescript@5.1.6)
+      '@wagmi/core': 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react@18.2.0)(typescript@5.2.2)(viem@1.11.0)
+      abitype: 0.8.7(typescript@5.2.2)
       react: 18.2.0
-      typescript: 5.1.6
+      typescript: 5.2.2
       use-sync-external-store: 1.2.0(react@18.2.0)
-      viem: 1.11.0(typescript@5.1.6)
+      viem: 1.11.0(typescript@5.2.2)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
       - '@types/react'
@@ -3259,7 +3260,3 @@ packages:
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
