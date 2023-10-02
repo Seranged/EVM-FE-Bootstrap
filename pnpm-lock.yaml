@@ -1,57 +1,58 @@
 lockfileVersion: '6.0'
 
-importers:
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
-  .:
-    dependencies:
-      '@rainbow-me/rainbowkit':
-        specifier: ^1.0.11
-        version: 1.0.11(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(viem@1.11.0)(wagmi@1.4.2)
-      '@types/node':
-        specifier: 20.5.8
-        version: 20.5.8
-      '@types/react':
-        specifier: 18.2.22
-        version: 18.2.22
-      '@types/react-dom':
-        specifier: 18.2.7
-        version: 18.2.7
-      abitype:
-        specifier: ^0.9.8
-        version: 0.9.8(typescript@5.1.6)
-      autoprefixer:
-        specifier: 10.4.15
-        version: 10.4.15(postcss@8.4.29)
-      encoding:
-        specifier: ^0.1.13
-        version: 0.1.13
-      next:
-        specifier: ^13.5.1
-        version: 13.5.1(react-dom@18.2.0)(react@18.2.0)
-      postcss:
-        specifier: 8.4.29
-        version: 8.4.29
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      rome:
-        specifier: ^12.1.3
-        version: 12.1.3
-      tailwindcss:
-        specifier: 3.3.3
-        version: 3.3.3
-      typescript:
-        specifier: 5.1.6
-        version: 5.1.6
-      viem:
-        specifier: ^1.11.0
-        version: 1.11.0(typescript@5.1.6)
-      wagmi:
-        specifier: ^1.4.2
-        version: 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0)
+dependencies:
+  '@rainbow-me/rainbowkit':
+    specifier: ^1.0.11
+    version: 1.0.11(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(viem@1.11.0)(wagmi@1.4.2)
+  '@types/node':
+    specifier: 20.8.0
+    version: 20.8.0
+  '@types/react':
+    specifier: 18.2.22
+    version: 18.2.22
+  '@types/react-dom':
+    specifier: 18.2.7
+    version: 18.2.7
+  abitype:
+    specifier: ^0.9.8
+    version: 0.9.8(typescript@5.1.6)
+  autoprefixer:
+    specifier: 10.4.15
+    version: 10.4.15(postcss@8.4.29)
+  encoding:
+    specifier: ^0.1.13
+    version: 0.1.13
+  next:
+    specifier: ^13.5.1
+    version: 13.5.1(react-dom@18.2.0)(react@18.2.0)
+  postcss:
+    specifier: 8.4.29
+    version: 8.4.29
+  react:
+    specifier: 18.2.0
+    version: 18.2.0
+  react-dom:
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
+  rome:
+    specifier: ^12.1.3
+    version: 12.1.3
+  tailwindcss:
+    specifier: 3.3.3
+    version: 3.3.3
+  typescript:
+    specifier: 5.1.6
+    version: 5.1.6
+  viem:
+    specifier: ^1.11.0
+    version: 1.11.0(typescript@5.1.6)
+  wagmi:
+    specifier: ^1.4.2
+    version: 1.4.2(@types/react@18.2.22)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(viem@1.11.0)
 
 packages:
 
@@ -671,7 +672,7 @@ packages:
   /@types/connect@3.4.36:
     resolution: {integrity: sha512-P63Zd/JUGq+PdrM1lv0Wv5SBYeA2+CORvbrXbngriYY0jzLUWfQMQQxOhjONEz/wlHOAxOdY7CY65rgQdTjq2w==}
     dependencies:
-      '@types/node': 20.5.8
+      '@types/node': 20.8.0
     dev: false
 
   /@types/debug@4.1.8:
@@ -688,8 +689,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: false
 
-  /@types/node@20.5.8:
-    resolution: {integrity: sha512-eajsR9aeljqNhK028VG0Wuw+OaY5LLxYmxeoXynIoE6jannr9/Ucd1LL0hSSoafk5LTYG+FfqsyGt81Q6Zkybw==}
+  /@types/node@20.8.0:
+    resolution: {integrity: sha512-LzcWltT83s1bthcvjBmiBvGJiiUe84NWRHkw+ZV6Fr41z2FbIzvc815dk2nQ3RAKMuN2fkenM/z3Xv2QzEpYxQ==}
     dev: false
 
   /@types/prop-types@15.7.6:
@@ -721,13 +722,13 @@ packages:
   /@types/ws@7.4.7:
     resolution: {integrity: sha512-JQbbmxZTZehdc2iszGKs5oC3NFnjeay7mtAWrdt7qNtAVK0g19muApzAy4bm9byz79xa2ZnO/BOBC2R8RC5Lww==}
     dependencies:
-      '@types/node': 20.5.8
+      '@types/node': 20.8.0
     dev: false
 
   /@types/ws@8.5.5:
     resolution: {integrity: sha512-lwhs8hktwxSjf9UaZ9tG5M03PGogvFaH8gUgLNbN9HKIg0dvv6q+gkSuJ8HN4/VbyxkuLzCjlN7GquQ0gUJfIg==}
     dependencies:
-      '@types/node': 20.5.8
+      '@types/node': 20.8.0
     dev: false
 
   /@vanilla-extract/css@1.9.1:
@@ -3259,7 +3260,3 @@ packages:
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
