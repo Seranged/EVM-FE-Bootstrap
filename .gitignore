@@ -19,10 +19,6 @@
 .DS_Store
 *.pem
 
-# debug
-pnpm-debug.log*
-pnpm-error.log*
-
 # local env files
 .env*.local
 
