@@ -20,7 +20,7 @@
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "abitype": "^0.9.10",
-    "autoprefixer": "10.4.15",
+    "autoprefixer": "10.4.16",
     "encoding": "^0.1.13",
     "next": "^13.5.4",
     "postcss": "8.4.29",
