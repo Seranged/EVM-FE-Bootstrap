@@ -18,7 +18,7 @@
 - [RainbowKit](https://github.com/rainbow-me/rainbowkit)
 - [Typescript](https://github.com/microsoft/TypeScript)
 - [Abitype](https://github.com/wagmi-dev/abitype)
-- [Rome](https://github.com/rome/tools) (EsLint + Prettier on Steroids)
+- [Biome](https://biomejs.dev/) (EsLint + Prettier on Steroids)
 
 ## Getting Started
 
