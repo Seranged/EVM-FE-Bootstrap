@@ -18,7 +18,7 @@
     "@rainbow-me/rainbowkit": "^1.0.11",
     "@types/node": "20.5.8",
     "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
+    "@types/react-dom": "18.2.15",
     "abitype": "^0.9.10",
     "autoprefixer": "10.4.15",
     "encoding": "^0.1.13",
