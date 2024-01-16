@@ -22,9 +22,9 @@
 
 ## Getting Started
 
-1. Run `bun install` to install dependencies.
+1. Run `yarn install` to install dependencies.
 2. Create `.env.local` file in root and add ALCHEMY_API_KEY
-3. Run `bun dev` to begin developing.
+3. Run `yarn dev` to begin developing.
 
 4. `Optional`: This repository has an integration with Dependabot (in the .github folder). This means that if you set up the bot on Github, it will check dependencies every week and ask for a pull request to merge into the codebase. Furthermore, I have added in [combine-prs-workflow](https://github.com/hrvey/combine-prs-workflow), which will merge all of the Dependabot PR requests from each dependency update into one PR for you to merge. Click [here](https://github.com/hrvey/combine-prs-workflow) to set up that PR merging, and click [here](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#enabling-dependabot-version-updates) to set up Dependabot
 
