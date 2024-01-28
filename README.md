@@ -2,7 +2,6 @@
 
 ![lastCommit](https://img.shields.io/github/last-commit/seranged/evm-fe-bootstrap?style=for-the-badge)
 ![license](https://img.shields.io/github/license/seranged/evm-fe-bootstrap?style=for-the-badge)
-
 [![demo](https://img.shields.io/badge/Demo_Page-Click-success?style=for-the-badge)](https://www.seranged.com/)
 
 ![stars](https://img.shields.io/github/stars/seranged/evm-fe-bootstrap?style=social)
