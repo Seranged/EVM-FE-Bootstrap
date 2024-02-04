@@ -23,8 +23,14 @@ export default function LandingPage() {
             <p>Watching Blocks on {chainId ? chainId : 'Loading...'}</p>
             <div className='flex items-center justify-center space-x-2'>
               <div className='relative'>
-                <div className='absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping'></div>
-                <div className='relative h-2 w-2 rounded-full bg-green-500'></div>
+                <div
+                  className={`absolute inline-flex h-full w-full rounded-full  ${
+                    blockNumber.data ? 'bg-green-500' : 'bg-orange-500'
+                  } opacity-75 animate-ping`}
+                ></div>
+                <div
+                  className={`relative h-2 w-2 rounded-full ${blockNumber.data ? 'bg-green-500' : 'bg-orange-500'}`}
+                ></div>
               </div>
               <p>{blockNumber.data ? Number(blockNumber.data) : 'Loading...'}</p>
             </div>
