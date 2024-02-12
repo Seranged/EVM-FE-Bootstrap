@@ -31,3 +31,6 @@ next-env.d.ts
 
 # typechain
 /src/contracts/types
+
+# yarn
+yarn-error.log
