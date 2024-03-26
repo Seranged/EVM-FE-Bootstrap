@@ -21,5 +21,4 @@
 ## Getting Started
 
 1. Run `yarn install` to install dependencies.
-2. Create `.env.local` file in root and add ALCHEMY_API_KEY
-3. Run `yarn dev` to begin developing.
+2. Run `yarn dev` to begin developing.
