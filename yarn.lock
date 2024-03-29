@@ -4022,10 +4022,10 @@ viem@^1.0.0, viem@^1.1.4:
     isows "1.0.3"
     ws "8.13.0"
 
-viem@^2.9.3:
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/viem/-/viem-2.9.3.tgz#7de5253b9a9907b4db0f3a4444677b2cdf743589"
-  integrity sha512-HVw0JLFCAerIt2pavToQdFS73a42L1Lhenh7YN8tIOtOdr/N7FhOqbzs3+PuEBJiRy/MJVrz9aWb5smulaTcWQ==
+viem@^2.9.5:
+  version "2.9.5"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.9.5.tgz#2d38abd5eb338886488719d9079500e7c971af10"
+  integrity sha512-IKLmGZJEQkdt9fqvryjR+W1FsPZM+dhALT0pwR8xhBOLvVHM0/lEViGRWDpm2ArNsFszipFhc2EpKp80/PnXkw==
   dependencies:
     "@adraffy/ens-normalize" "1.10.0"
     "@noble/curves" "1.2.0"
