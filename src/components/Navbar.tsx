@@ -1,5 +1,5 @@
 'use client'
-import { FC } from 'react'
+import type { FC } from 'react'
 import Image from 'next/image'
 import { ConnectButton } from '@rainbow-me/rainbowkit'
 

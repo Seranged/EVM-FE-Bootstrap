@@ -14,11 +14,11 @@
     "preinstall": "npx only-allow yarn"
   },
   "dependencies": {
-    "@biomejs/biome": "^1.6.3",
+    "@biomejs/biome": "^1.6.4",
     "@rainbow-me/rainbowkit": "2.0.4",
-    "@tanstack/react-query": "^5.28.9",
-    "@types/node": "20.12.2",
-    "@types/react": "18.2.73",
+    "@tanstack/react-query": "^5.28.14",
+    "@types/node": "20.12.3",
+    "@types/react": "18.2.74",
     "@types/react-dom": "18.2.23",
     "abitype": "^1.0.2",
     "autoprefixer": "10.4.19",
@@ -29,7 +29,7 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.4.3",
     "typescript": "5.4.3",
-    "viem": "^2.9.6",
-    "wagmi": "^2.5.16"
+    "viem": "^2.9.8",
+    "wagmi": "^2.5.18"
   }
 }
