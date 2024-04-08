@@ -4046,10 +4046,10 @@ viem@^1.0.0, viem@^1.1.4:
     isows "1.0.3"
     ws "8.13.0"
 
-viem@^2.9.9:
-  version "2.9.9"
-  resolved "https://registry.yarnpkg.com/viem/-/viem-2.9.9.tgz#c89e6f402ae06601579a7e3069de76eb08c60adb"
-  integrity sha512-SUIHBL6M5IIlqDCMEQwAAvHzeglaM4FEqM6bCI+srLXtFYmrpV4tWhnpobQRNwh4f7HIksmKLLZ+cytv8FfnJQ==
+viem@^2.9.13:
+  version "2.9.13"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.9.13.tgz#3053394a0b3b60e46706951fefba6dd43ed1f50b"
+  integrity sha512-TxNZOWFwr2Pc6CeY4tViFL2NRq9v86HofAPkhBgScP8DUn3EeSbQhmDXbjMZNkZvXoMqWVl0AZM81rEOlaKrbg==
   dependencies:
     "@adraffy/ens-normalize" "1.10.0"
     "@noble/curves" "1.2.0"
