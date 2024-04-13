@@ -19,7 +19,7 @@
     "@tanstack/react-query": "^5.29.2",
     "@types/node": "20.12.7",
     "@types/react": "18.2.77",
-    "@types/react-dom": "18.2.24",
+    "@types/react-dom": "18.2.25",
     "abitype": "^1.0.2",
     "autoprefixer": "10.4.19",
     "encoding": "^0.1.13",
