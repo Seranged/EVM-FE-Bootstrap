@@ -7,6 +7,8 @@ import ClientProvider from './clientProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// For your favicons to place into /favicons, upload base image in https://realfavicongenerator.net/ and then use the generated images to replace the existing ones
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.seranged.com/'),
   title: 'EVM-FE-Bootstrap',
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
     { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/favicon/favicon-32x32.png' },
     { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/favicon/favicon-16x16.png' },
     { rel: 'manifest', url: '/favicon/site.webmanifest' },
-    { rel: 'mask-icon', url: '/favicon/safari-pinned-tab.svg', color: '#5bbad5' },
+    { rel: 'mask-icon', url: '/favicon/safari-pinned-tab.svg', color: '#152733' },
   ],
   twitter: {
     site: '@seranged',
