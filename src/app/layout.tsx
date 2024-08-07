@@ -7,7 +7,7 @@ import ClientProvider from './clientProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// For your favicons to place into /favicons, upload base image in https://realfavicongenerator.net/ and then use the generated images to replace the existing ones
+// For your favicons to place into /favicon, upload base image in https://realfavicongenerator.net/ and then use the generated images to replace the existing ones
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.seranged.com/'),
