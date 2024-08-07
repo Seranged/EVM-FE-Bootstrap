@@ -15,11 +15,11 @@ export default function LandingPage() {
   return (
     <>
       <main className='flex min-h-screen flex-col items-center justify-center'>
-        <div className='flex space-x-5'>
-          <p className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4 flex items-center'>
-            EVM-FE-Bootstrap Repository
+        <div className='flex space-y-3 md:space-y-0 md:space-x-5 md:flex-row flex-col'>
+          <p className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4 flex items-center text-center justify-center'>
+            EVM-FE-Bootstrap<br></br>Repository
           </p>
-          <div className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4 flex flex-col'>
+          <div className='rounded-xl border border-slate-500 bg-gradient-to-b from-zinc-800/30 to-zinc-500/40 p-4 flex flex-col text-center justify-center'>
             <p>Watching Blocks on {chainId ? chainId : 'Loading...'}</p>
             <div className='flex items-center justify-center space-x-2'>
               <div className='relative'>

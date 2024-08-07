@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar: FC = () => {
   return (
     <>
-      <div className='fixed right-5 top-4 z-50 md:right-10 md:top-10'>
+      <div className='fixed right-5 top-4 z-50 md:right-10 md:top-10 space-y-3'>
         <ConnectButton.Custom>
           {({ account, chain, openAccountModal, openChainModal, openConnectModal, mounted }) => {
             const connected = mounted && account && chain
@@ -66,7 +66,7 @@ const Navbar: FC = () => {
             )
           }}
         </ConnectButton.Custom>
-        <div className='flex space-y-4 mt-5 flex-col'>
+        <div>
           <Link href='https://github.com/seranged' target='_blank' rel='noopener noreferrer'>
             <button
               type='button'
@@ -76,6 +76,8 @@ const Navbar: FC = () => {
               <span>Seranged</span>
             </button>
           </Link>
+        </div>
+        <div>
           <Link href='https://github.com/Seranged/EVM-FE-Bootstrap' target='_blank' rel='noopener noreferrer'>
             <button
               type='button'
@@ -87,7 +89,6 @@ const Navbar: FC = () => {
           </Link>
         </div>
       </div>
-
       <div className='fixed right-80 top-10 z-10'>
         <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[680px]  before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-10 after:h-[190px] after:w-[840px] after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]"></div>
       </div>
