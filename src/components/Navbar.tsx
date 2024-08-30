@@ -66,7 +66,7 @@ const Navbar: FC = () => {
             )
           }}
         </ConnectButton.Custom>
-        <div>
+        <div className='flex justify-end'>
           <Link href='https://github.com/seranged' target='_blank' rel='noopener noreferrer'>
             <button
               type='button'
@@ -77,7 +77,7 @@ const Navbar: FC = () => {
             </button>
           </Link>
         </div>
-        <div>
+        <div className='flex justify-end'>
           <Link href='https://github.com/Seranged/EVM-FE-Bootstrap' target='_blank' rel='noopener noreferrer'>
             <button
               type='button'
