@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.seranged.com/'),
   title: 'EVM-FE-Bootstrap',
   description: 'A comprehensive frontend bootstrap for EVM-compatible projects.',
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
     type: 'website',
@@ -44,6 +43,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+}
+
+export function generateViewport() {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+  }
 }
 
 export default function RootLayout({
