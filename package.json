@@ -14,25 +14,25 @@
     "preinstall": "npx only-allow yarn"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "2.1.5",
-    "@tanstack/react-query": "^5.55.4",
-    "@types/node": "22.5.1",
-    "@types/react": "18.3.4",
+    "@rainbow-me/rainbowkit": "2.1.6",
+    "@tanstack/react-query": "^5.56.2",
+    "@types/node": "22.5.5",
+    "@types/react": "18.3.7",
     "@types/react-dom": "18.3.0",
     "abitype": "^1.0.6",
     "autoprefixer": "10.4.20",
     "encoding": "^0.1.13",
-    "next": "^14.2.10",
-    "postcss": "8.4.41",
+    "next": "^14.2.12",
+    "postcss": "8.4.47",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "tailwindcss": "3.4.10",
-    "typescript": "5.5.4",
-    "viem": "^2.21.3",
-    "wagmi": "^2.12.8"
+    "tailwindcss": "3.4.12",
+    "typescript": "5.6.2",
+    "viem": "^2.21.9",
+    "wagmi": "^2.12.12"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.1",
     "pino-pretty": "^11.2.2"
   }
 }
