@@ -20,5 +20,5 @@
 
 ## Getting Started
 
-1. Run `yarn install` to install dependencies.
-2. Run `yarn dev` to begin developing.
+1. Run `bun install` to install dependencies.
+2. Run `bun dev` to begin developing.

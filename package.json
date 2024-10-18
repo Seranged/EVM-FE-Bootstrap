@@ -8,10 +8,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "yarn biome check src --apply",
-    "lintCheck": "yarn biome check src",
-    "format": "yarn biome format src --write",
-    "preinstall": "npx only-allow yarn"
+    "lint": "bun run biome check src --apply",
+    "lintCheck": "bun run biome check src",
+    "format": "bun run biome format src --write",
+    "preinstall": "npx only-allow bun"
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "2.2.0",
