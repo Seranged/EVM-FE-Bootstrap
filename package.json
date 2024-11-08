@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "pino-pretty": "^11.3.0"
+    "pino-pretty": "^12.1.0"
   }
 }
